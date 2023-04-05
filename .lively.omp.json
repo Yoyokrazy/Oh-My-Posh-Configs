@@ -68,6 +68,29 @@
       "type": "prompt"
     },
     {
+      "alignment":"right",
+      "segments": [
+        {
+          "type": "npm",
+          "style": "diamond",
+          "leading_diamond": "",
+          "trailing_diamond": "",
+          "foreground": "#193549",
+          "background": "#ffeb3b",
+          "template": " {{ .Full }} "
+        },
+        {
+          "type": "node",
+          "style": "diamond",
+          "trailing_diamond": "\ue0b4",
+          "foreground": "#ffffff",
+          "background": "#6CA35E",
+          "template": "  {{ .Full }} "
+        }
+      ],
+      "type":"prompt"
+    },
+    {
       "alignment": "left",
       "newline": true,
       "segments": [
