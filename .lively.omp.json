@@ -17,12 +17,10 @@
           "foreground": "#000000",
           "powerline_symbol": "",
           "properties": {
-            "folder_separator_icon": " \ue0b1 ",
-            "home_icon": "~",
-            "style": "unique"
+            "style": "folder"
           },
           "style": "powerline",
-          "template": "   {{ .Path }} ",
+          "template": "  \ue0b1 {{ .Path }} ",
           "trailing_diamond": "\ue0b4",
           "type": "path"
         },
