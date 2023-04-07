@@ -6,7 +6,7 @@
         {
           "background": "#c386f1",
           "foreground": "#000000",
-          "leading_diamond": "",
+          "leading_diamond": "", 
           "style": "diamond",
           "template": " {{ .UserName }} ",
           "trailing_diamond": "",
@@ -75,8 +75,8 @@
           "style": "diamond",
           "leading_diamond": "",
           "trailing_diamond": "",
-          "foreground": "#193549",
-          "background": "#ffeb3b",
+          "foreground": "#ffffff",
+          "background": "#917295",
           "template": " {{ .Full }} "
         },
         {
@@ -84,7 +84,7 @@
           "style": "diamond",
           "trailing_diamond": "\ue0b4",
           "foreground": "#ffffff",
-          "background": "#6CA35E",
+          "background": "#5f4a62",
           "template": "  {{ .Full }} "
         }
       ],
